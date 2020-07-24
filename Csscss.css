@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+ul
+{
+
+list-style-type: none;
+overflow: hidden;
+background-color: lightgreen;
+margin: 0;
+padding: 14px 16px;
+}
+
+li
+{
+float: left;
+}
+
+li a
+{
+color: Black;
+text-align: right;
+text-decorator: none;
+margin:auto;
+padding: 14px 16px;
+}
+
+li a.active {
+    color: blue;	
+    background-color: red;
+}			
+
+li a:hover
+{
+    width: 100%;
+    background-color: brown;
+    color: white;
+    padding: 14px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
